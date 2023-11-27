@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 10%;
+    vertical-align: middle;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.container{
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* Common */
+
+.pt-80{
+    padding-top: 80px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.header-area {
+    box-shadow: 0px 7px 11px 1px rgba(0,0,0,0.13);
+    padding: 27px 0;
+    background-color: #03e9dd;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #000000;
+}
+
+
+/* Information Souris */
+
+.banner-area {
+    height: 256px;
+}
+
+.banner-area .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.banner-area .container .box_informations {
+    height: 312px;
+    width: 45%;
+    overflow-y: auto;
+}
+
+.box_informations::-webkit-scrollbar {
+    width: 6px;
+}
+
+.box_informations::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.box_informations::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+.banner-area .container .box_image_souris {
+    height: 100%;
+    width: 45%;
+}
+
+.banner-area .container {
+    margin-top: 2.5rem;
+}
+
+img {
+    float:right;
+}
+   
+p {
+    clear:right;
+}
+
+
+/* Vos Avis */
+
+.Vos-avis {
+    margin-top: 64px;
+}
+
+.section-title {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.section-title h4 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.Vos-avis {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+}
+
+.single-about {
+    flex-basis: 32%;
+    border: 1px solid #ffffff;
+    padding: 30px 25px;
+    transition: .3s;
+}
+
+.single-about i {
+    font-size: 20px;
+}
+
+.single-about h4 {
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.single-about:hover {
+    border-color: #000000;
+}
+
+/* Footer */
+
+.main_footer {
+    background-color: #000000; 
+    color: rgb(0, 0, 0);
+}
